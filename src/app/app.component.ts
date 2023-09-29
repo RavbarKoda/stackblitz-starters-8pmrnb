@@ -8,10 +8,7 @@ import { Component } from '@angular/core';
 			<li><a routerLink="/person" routerLinkActive="active">Person</a></li>
 			</ul> 
 		</nav>  
-		
 		<router-outlet></router-outlet>	
-  `
+  `,
 })
-export class AppComponent { 
-}
-    
+export class AppComponent {}
